@@ -53,7 +53,7 @@ export default {
           id: 6,
           name: 'Klinik Smartphone',
           imageUrl: 'klinik',
-          status: 'Klinik Smartphone is an interactive landing page designed to introduce smartphone repair services to potential customers. This landing page displays important information such as types of repair services, customer testimonials, and options to contact customer service.',
+          status: 'Klinik Smartphone is an interactive landing page designed to introduce smartphone repair services to potential customers.',
           tech: 'TypeScript, NextJS, Tailwind',
           github: 'null',
           demo: 'null'
@@ -61,7 +61,7 @@ export default {
         {
           id: 7,
           name: 'Personal Finance - SaldaQ',
-          imageUrl: '/img/personal-finance.png',
+          imageUrl: 'finance',
           status: 'SaldaQ is a personal finance management application designed to help users easily track expenses, income, and financial categories. The application allows users to monitor balances, group transactions by category, and manage finances effectively.',
           tech: 'React, TypeScript, Tailwind, ExpressJS, MongoDB, NextUI',
           github: 'null',
@@ -70,7 +70,7 @@ export default {
         {
           id: 8,
           name: 'Enigma Laundry',
-          imageUrl: '/img/laundry.png',
+          imageUrl: 'laundry',
           status: 'Enigma Laundry is a CRUD-based application designed to efficiently manage laundry services. It allows users to create, read, update, and delete records related to laundry orders',
           tech: 'JavaScript, React, Tailwind',
           github: 'null',
@@ -78,8 +78,8 @@ export default {
         },
         {
           id: 9,
-          name: 'WallEat',
-          imageUrl: '/img/walleat.png',
+          name: 'WellEat',
+          imageUrl: 'welleat',
           status: 'WellEat is a healthy food recipe platform that helps users discover, save their favorite food recipes.',
           tech: 'JavaScript, React, Tailwind, Redux',
           github: 'null',
@@ -152,13 +152,44 @@ export default {
 </div></template>
 
 <style>
+.item-card {
+  min-height: 450px; /* Tentukan tinggi minimum */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Membuat konten di dalamnya berada di atas */
+  align-items: center;
+  padding: 30px; /* Sesuaikan padding untuk tata letak */
+  gap: 10px;
+}
+
+.item-card .title-text {
+  margin-bottom: 10px; /* Mengurangi jarak antara judul dan deskripsi */
+}
+
+.item-card .w-full {
+  flex-grow: 1; /* Memastikan bagian deskripsi dan elemen lain memiliki ruang yang sesuai */
+  text-align: center; /* Menjadikan teks tetap berada di tengah secara horizontal */
+}
+
 .item-card:hover {
   transition: transform 0.3s ease;
   transform: translateY(-8px);
 }
-svg:hover{
+
+.item-card img {
+  margin-bottom: 10px; /* Mengurangi jarak antara gambar dan teks di bawahnya */
+}
+
+svg:hover {
   stroke: #ffdb70;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap:
+}
+
 @keyframes fadeZoomIn {
   0% {
     opacity: 0;

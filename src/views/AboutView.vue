@@ -14,13 +14,15 @@
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi semuanya! Nama saya Naufal Danisha Amri. Saya adalah seorang pengembang web dari Sidoarjo, Jawa Timur. Saya memiliki 1 tahun pengalaman dalam pengembangan web back-end.
-            Saya sangat menikmati apa yang saya lakukan sekarang, menurut saya, menciptakan program bukan hanya pekerjaan, tetapi juga seni yang memiliki nilai estetika.
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Naufal Danisha Amri. I am a web developer from Sidoarjo, East Java. I have 1 year of experience in front-end web development. 
+            I really enjoy what I do now, in my opinion, creating programs is not just a job, but also art that has aesthetic value.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; Tugas saya adalah membangun situs web Anda agar berfungsi dan ramah pengguna namun tetap menarik.
-            Selain itu, saya memberikan sentuhan pribadi pada produk Anda dan memastikan bahwa situs web tersebut menarik perhatian dan mudah digunakan.
-            Tujuan saya adalah menyampaikan pesan dan identitas Anda dengan cara yang paling kreatif. Jika Anda tertarik untuk mempekerjakan saya, silakan hubungi kontak yang tertera.
+            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
+            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
+            easy to use.
+            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
+            please contact the listed contact.
           </p>
         </div>
       </section>
