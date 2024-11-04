@@ -6,12 +6,12 @@ export default {
       items: [
         {
           id: 1,
-          name: 'lahkok',
+          name: 'Personal Website',
           imageUrl: 'portfolio_v2',
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
           tech: 'VueJS 3, Tailwind',
-          github: 'null',
-          demo: 'null'
+          github: 'https://github.com/ImNopal/portofolio-nopal',
+          demo: 'https://nopaldans.netlify.app/portfolio  '
         },
         {
           id: 2,
