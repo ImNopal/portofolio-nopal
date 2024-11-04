@@ -52,7 +52,7 @@ export default {
         {
           id: 6,
           name: 'Klinik Smartphone',
-          imageUrl: '/img/klinik.png',
+          imageUrl: 'klinik',
           status: 'Klinik Smartphone is an interactive landing page designed to introduce smartphone repair services to potential customers. This landing page displays important information such as types of repair services, customer testimonials, and options to contact customer service.',
           tech: 'TypeScript, NextJS, Tailwind',
           github: 'null',
