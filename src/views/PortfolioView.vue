@@ -19,8 +19,8 @@ export default {
           imageUrl: 'sahabatmuslim',
           status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
           tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          github: 'null',
+          demo: 'null'
         },
         {
           id: 3,
@@ -46,6 +46,42 @@ export default {
           imageUrl: 'sp2se',
           status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
           tech: 'Codeigniter 3, Bootstrap',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 6,
+          name: 'Klinik Smartphone',
+          imageUrl: '/img/klinik.png',
+          status: 'Klinik Smartphone is an interactive landing page designed to introduce smartphone repair services to potential customers. This landing page displays important information such as types of repair services, customer testimonials, and options to contact customer service.',
+          tech: 'TypeScript, NextJS, Tailwind',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 7,
+          name: 'Personal Finance - SaldaQ',
+          imageUrl: '/img/personal-finance.png',
+          status: 'SaldaQ is a personal finance management application designed to help users easily track expenses, income, and financial categories. The application allows users to monitor balances, group transactions by category, and manage finances effectively.',
+          tech: 'React, TypeScript, Tailwind, ExpressJS, MongoDB, NextUI',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 8,
+          name: 'Enigma Laundry',
+          imageUrl: '/img/laundry.png',
+          status: 'Enigma Laundry is a CRUD-based application designed to efficiently manage laundry services. It allows users to create, read, update, and delete records related to laundry orders',
+          tech: 'JavaScript, React, Tailwind',
+          github: 'null',
+          demo: 'null'
+        },
+        {
+          id: 9,
+          name: 'WallEat',
+          imageUrl: '/img/walleat.png',
+          status: 'WellEat is a healthy food recipe platform that helps users discover, save their favorite food recipes.',
+          tech: 'JavaScript, React, Tailwind, Redux',
           github: 'null',
           demo: 'null'
         }
