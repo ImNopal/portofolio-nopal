@@ -40,7 +40,7 @@
       </header>
       <section>
         <p class="text-lg font-semibold">SMA NEGERI 1 WONOAYU</p>
-        <p class="text-sm text-gray-400">2021 - 2024</p>
+        <p class="text-sm text-gray-400">2022 - 2025</p>
       </section>
     </article>
   </div>
